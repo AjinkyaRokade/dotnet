@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+// using System.Windows.Forms;
 using BOL;
 using DAL;
 using Testapp.Models;
@@ -24,12 +25,12 @@ public class BookController : Controller
     }
 
     public IActionResult AddBook(){
-
         return View();
-
     }
+
     public IActionResult Insert(int id, string name){
         BookManager.insertBook(new Book(){Id=id, Name=name});
+        // System.Windows.Forms.MessageBox.Show("My message here");
 
         return Redirect("/Book/show");
 
@@ -56,7 +57,22 @@ public class BookController : Controller
         BookManager.Update(book);
 
         return Redirect("/Book/show");
-
     }
+
+    public IActionResult SearchBook(int id){
+        Book book =BookManager.FindById(id);
+        if(book==null)
+        return Redirect("NobookFound");
+        else{
+            ViewData["book"]=book;
+        return View();
+        }
+    }
+
+    public IActionResult NobookFound(){
+       return View();
+    }
+
+
     
 }

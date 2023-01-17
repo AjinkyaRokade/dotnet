@@ -9,15 +9,17 @@
 
     @{
         List<Book> books=(List<Book>)ViewData["book"];
-            <table border=2>
-                <tr><th>Id</th><th>Name</th></tr>
+            <h1 style="text-align: center;">Book List</h1>  <br/>  <br/>
+            <table align="center" border="2px" style="width:500px;" class="table table-striped">
+                <tr><th>Id</th><th>Name</th><th></th><th></th></tr>
             @foreach(Book b in books){
-                 <tr><td>@b.Id</td><td>@b.Name</td><td><a href="DeleteBook/@b.Id" ><button type="button">Delete</button></a></td><td><a href="UpdateBook/@b.Id " ><button type="button">Update</button></a></td></tr>
+                 <tr><td>@b.Id</td><td>@b.Name</td><td><a href="DeleteBook/@b.Id" ><button type="button" class="btn btn-success">Delete</button></a></td><td><a href="UpdateBook/@b.Id " ><button type="button" class="btn btn-warning">Update</button></a></td></tr>
             }
 
 
             </table>
-            <a href="/Book/AddBook"><button type="button">Add Book</button></a>
+            <br/>
+            <a href="/Book/AddBook"><button type="button" class="btn btn-success">Add Book</button></a>
     }
  
    </div>

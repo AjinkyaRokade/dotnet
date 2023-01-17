@@ -1554,11 +1554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\Testapp\\Testapp.csproj",
+      "projectUniqueName": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\Testapp\\Testapp.csproj",
       "projectName": "Testapp",
-      "projectPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\Testapp\\Testapp.csproj",
+      "projectPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\Testapp\\Testapp.csproj",
       "packagesPath": "C:\\Users\\ajink\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\Testapp\\obj\\",
+      "outputPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\Testapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ajink\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1575,11 +1575,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\BOL\\BOL.csproj": {
-              "projectPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\BOL\\BOL.csproj"
+            "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\BOL\\BOL.csproj": {
+              "projectPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\BOL\\BOL.csproj"
             },
-            "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\DEMO\\DAL\\DAL.csproj"
+            "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\ajink\\Desktop\\IACSD\\Assignment\\DOTNET\\ModuleEnd\\dotnet\\DAL\\DAL.csproj"
             }
           }
         }
